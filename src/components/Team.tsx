@@ -5,25 +5,15 @@ import { Button } from "@/components/ui/button";
 export const Team = () => {
   const teamMembers = [
     {
-      name: "Team Member 1",
-      role: "AI Engineer",
+      name: "Harshit Chourasia",
+      role: "full stack",
       bio: "Specializes in machine learning and agentic AI systems",
     },
     {
       name: "Team Member 2",
-      role: "Full Stack Developer",
-      bio: "Expert in React, Node.js, and cloud architecture",
+      role: "PPT & pitch the idea",
+      bio: "",
     },
-    {
-      name: "Team Member 3",
-      role: "UI/UX Designer",
-      bio: "Creates beautiful and intuitive user experiences",
-    },
-    {
-      name: "Team Member 4",
-      role: "Product Manager",
-      bio: "Drives product vision and strategy",
-    }
   ];
 
   return (
